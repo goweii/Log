@@ -1,4 +1,4 @@
-apply from: "$rootDir/module.gradle"
+apply from: "../module.gradle"
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
