@@ -1,7 +1,6 @@
-rootProject.name = "Log"
-include ':app'
 include ':log'
 include ':log-header'
 include ':log-formatter'
 include ':log-printer-file'
 include ':log-printer-android'
+include ':app'
