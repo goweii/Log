@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorA" format="color" />
+    <attr name="colorE" format="color" />
+    <attr name="colorW" format="color" />
+    <attr name="colorD" format="color" />
+    <attr name="colorI" format="color" />
+    <attr name="colorV" format="color" />
+</resources>

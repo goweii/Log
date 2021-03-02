@@ -1,0 +1,5 @@
+apply from: "$rootDir/module.gradle"
+
+dependencies {
+    implementation project(":log")
+}

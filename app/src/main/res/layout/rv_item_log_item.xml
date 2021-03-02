@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/shape_log_d"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="?colorD"
+        android:textSize="11sp"
+        tools:text="2021-02-01 13:48:23.139" />
+
+    <TextView
+        android:id="@+id/tv_level_and_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="?colorD"
+        android:textSize="11sp"
+        tools:text="E/main" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="?colorD"
+        android:textSize="11sp"
+        tools:text="MainActivity" />
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="?colorD"
+        android:textSize="11sp"
+        tools:text="MainActivity.onClick(MainActivity.kt:45)" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="?colorD"
+        android:textSize="11sp"
+        tools:text="java.lang.NullPointerException: custom exception" />
+
+</LinearLayout>

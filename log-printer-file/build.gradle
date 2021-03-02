@@ -1,0 +1,6 @@
+apply from: "$rootDir/module.gradle"
+
+dependencies {
+    implementation project(":log")
+    implementation "com.tencent.mars:mars-xlog:1.2.3"
+}
